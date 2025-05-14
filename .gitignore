@@ -12,7 +12,7 @@ $RECYCLE.BIN/
 *.log
 log.txt
 
-
+readme.md
 /.sourcemaps
 /.versions
 /coverage
@@ -68,3 +68,29 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+# Node modules
+node_modules/
+
+# Build output
+www/
+dist/
+android/
+ios/
+
+# Environment files
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Capacitor/Native platform build folders
+*.apk
+*.ipa
